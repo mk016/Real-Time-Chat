@@ -27,6 +27,7 @@ function initializeChat() {
             username :uname,
             text:message
         })
+        
         socket.emit("chat",{
             username :uname,
             text:message
